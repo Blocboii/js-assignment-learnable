@@ -1,4 +1,4 @@
-// DATA Samples
+// Samples
 
 const items = [
     { id: 1, name: 'item 1', price: 100 },
@@ -17,7 +17,7 @@ const items = [
     });
   }
 
-  // Function to add an item to the cart
+  // Function to add an item to cart
   function addToCart(itemId) {
     const item = items.find(i => i.id === itemId);
 
@@ -29,7 +29,7 @@ const items = [
     }
   }
 
-  // Function to display the shopping cart
+  // Function to display the cart
   function displayCart() {
     console.log('Shopping Cart:');
     if (carts.length === 0) {
@@ -41,7 +41,7 @@ const items = [
     }
   }
 
-  // Example usage
+  // usage
   displayItems();
 
   addToCart(2);
